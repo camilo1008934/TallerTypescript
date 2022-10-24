@@ -1,6 +1,3 @@
-"use strict";
-exports.__esModule = true;
-exports.Serie = void 0;
 var Serie = /** @class */ (function () {
     function Serie(id, nombre, channel, seasons, description, url, image) {
         this.id = id;
@@ -13,4 +10,4 @@ var Serie = /** @class */ (function () {
     }
     return Serie;
 }());
-exports.Serie = Serie;
+export { Serie };
